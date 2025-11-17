@@ -5,9 +5,11 @@
 | ID       | Descrição                                                        |
 | ------- | ---------------------------------------------------------------- |
 |C01-CT01	 | Importação de XML válido alimenta estoque corretamente.|
+
 | **Pré-condições**                                             |
 | ------- | - XML válido.|
 | ------- | - Produtos existentes na nota.|
+
 | **Passos**                                                        |
 | ------- | ---------------------------------------------------------------- |
 DADO que o usuário acessa Pedidos > Importar XML de Compra
@@ -25,10 +27,10 @@ Produtos lançados no estoque.
 | ID       | Descrição                                                        |
 | ------- | ---------------------------------------------------------------- |
 |C01-CT02	 | Sistema deve recusar XML inválido.|
-| ------- | ---------------------------------------------------------------- |
+
 | **Pré-condições**                                             |
 | ------- | - XML com estrutura incorreta.|
-| ------- | ---------------------------------------------------------------- |
+
 | **Passos**                                                        |
 | ------- | ---------------------------------------------------------------- |
 DADO que o usuário acessa a tela de importação
