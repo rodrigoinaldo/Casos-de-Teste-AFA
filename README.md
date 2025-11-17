@@ -4,7 +4,7 @@
 ### Caso de Teste 01: Importar XML válido e gerar compra
 | ID       | Descrição                                                        |
 | :------- | :---------------------------------------------------------------- |
-|C01-CT01	Importação de XML válido alimenta estoque corretamente.|
+|C01-CT01	 | Importação de XML válido alimenta estoque corretamente.|
 | **Pré-condições**                                             |
 | :------------------------------------------------------------ |
 | - XML válido.|
@@ -26,7 +26,7 @@ Produtos lançados no estoque.
 ### Caso de Teste 02: Importar XML inválido
 | ID       | Descrição                                                        |
 | :------- | :---------------------------------------------------------------- |
-|C01-CT02	Sistema deve recusar XML inválido.|
+|C01-CT02	 | Sistema deve recusar XML inválido.|
 Pré-condições
 
 XML com estrutura incorreta.
