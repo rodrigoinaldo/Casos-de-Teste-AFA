@@ -68,7 +68,7 @@ ENTÃO deve exibir mensagens de “campo obrigatório”.
 ### Caso de Teste 04: Gerar compra mas não confirmar entrada
 | ID       | Descrição                                                        |
 | ------- | ---------------------------------------------------------------- |
-|C01-CT04	Compra deve permanecer pendente sem confirmação.|
+|C01-CT04	| Compra deve permanecer pendente sem confirmação.|
 | **Pré-condições**                                             |
 | :------------------------------------------------------------ |
 | - XML válido importado.|
