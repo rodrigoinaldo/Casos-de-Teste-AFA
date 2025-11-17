@@ -3,12 +3,12 @@
 -------------------------------------------
 ### Caso de Teste 01: Importar XML válido e gerar compra
 | ID       | Descrição                                                        |
-| :------- | :---------------------------------------------------------------- |
+| ------- | ---------------------------------------------------------------- |
 |C01-CT01	 | Importação de XML válido alimenta estoque corretamente.|
-| :--------------------------|:---------------------------------- |
+| ------- | ---------------------------------------------------------------- |
 | **Pré-condições**                                             |
-|          | - XML válido.|
-|          | - Produtos existentes na nota.|
+| ------- | - XML válido.|
+| ------- | - Produtos existentes na nota.|
 
 Passos
 Passos
@@ -27,9 +27,9 @@ Produtos lançados no estoque.
 | ID       | Descrição                                                        |
 | ------- | ---------------------------------------------------------------- |
 |C01-CT02	 | Sistema deve recusar XML inválido.|
-| ------------------------------------------------------------ |
+| ------- | ---------------------------------------------------------------- |
 | **Pré-condições**                                             |
-|---------|XML com estrutura incorreta.|
+| ------- |XML com estrutura incorreta.|
 
 Passos
 Passos
