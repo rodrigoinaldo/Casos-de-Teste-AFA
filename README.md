@@ -213,20 +213,21 @@ ENTÃO sistema deve bloquear.
 ### Caso de Teste 03: Tipo de documento inválido para compra a prazo
 | ID       | Descrição                                                        |
 | :------- | :---------------------------------------------------------------- |
-|C03-CT03	Sistema deve recusar documento que alimenta caixa.|
+|C03-CT03	 | Sistema deve recusar documento que alimenta caixa.|
+
 | **Pré-condições**                                             |
+| :------------------------------------------------------------ |
+|Compra marcada como “A Prazo”.|
 
-Compra marcada como “A Prazo”.
-
-| ------- | ---------------------------------------------------------------- |
-| **Passos**                                                        |
-| ------- | ---------------------------------------------------------------- |
+| **Passos**                                             |
+| :------------------------------------------------------------ |
 DADO que o usuário tenta inserir tipo de documento que alimenta caixa
 QUANDO selecionar a opção proibida
 ENTÃO deve exibir alerta.
-Critérios de Aceitação
 
-Documento não deve ser aceito.
+| **Critérios de Aceitação**                                             |
+| :------------------------------------------------------------ |
+|Documento não deve ser aceito.|
 
 -------------------------------------------
 ## ✅ CENÁRIO 04 – GESTÃO DE CLIENTES
