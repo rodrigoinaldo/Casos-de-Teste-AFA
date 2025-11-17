@@ -241,7 +241,7 @@ ENTÃO deve exibir alerta.
 | :------------------------------------------------------------ |
 |Nenhuma.|
 
-| **Passos*                                             |
+| **Passos**                                             |
 | :------------------------------------------------------------ |
 DADO que usuário clica em “Novo”
 E preenche os campos obrigatórios
