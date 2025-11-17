@@ -317,72 +317,76 @@ ENTÃO ele deve ser vinculado.
 ### Caso de Teste 01: Fechar caixa com sucesso
 | ID       | Descrição                                                        |
 | :------- | :---------------------------------------------------------------- |
-|C05-CT01	Caixa do dia fechado e registrado.|
-Pré-condições
+|C05-CT01	 | Caixa do dia fechado e registrado.|
 
-Haver pelo menos uma venda no dia.
+| **Pré-condições**                                             |
+| :------------------------------------------------------------ |
+|Haver pelo menos uma venda no dia.|
 
-| ------- | ---------------------------------------------------------------- |
-| **Passos**                                                        |
-| ------- | ---------------------------------------------------------------- |
+| **Passos**                                             |
+| :------------------------------------------------------------ |
 DADO que o usuário abre o Livro Caixa
 QUANDO clicar em “Fechar Caixa”
 ENTÃO o caixa deve ser finalizado.
-Critérios de Aceitação
 
-O dia fica bloqueado para novas movimentações.
+| **Critérios de Aceitação**                                             |
+| :------------------------------------------------------------ |
+|O dia fica bloqueado para novas movimentações.|
 
 ### Caso de Teste 02: Tentar fechar caixa sem vendas no dia
 | ID       | Descrição                                                        |
 | :------- | :---------------------------------------------------------------- |
-|C05-CT02	Sistema deve impedir fechamento vazio.|
+|C05-CT02	 | Sistema deve impedir fechamento vazio.|
+
 | **Pré-condições**                                             |
+| :------------------------------------------------------------ |
+|Nenhuma venda registrada.|
 
-Nenhuma venda registrada.
-
-| ------- | ---------------------------------------------------------------- |
-| **Passos**                                                        |
-| ------- | ---------------------------------------------------------------- |
+| **Passos**                                             |
+| :------------------------------------------------------------ |
 DADO que usuário tenta fechar caixa
 QUANDO clicar em Fechar
 ENTÃO deve exibir alerta de “nenhuma movimentação”.
-Critérios de Aceitação
 
-Bloqueio do fechamento.
+| **Critérios de Aceitação**                                             |
+| :------------------------------------------------------------ |
+|Bloqueio do fechamento.|
 
 ### Caso de Teste 03: Retirada de valores com sucesso
 | ID       | Descrição                                                        |
 | :------- | :---------------------------------------------------------------- |
-|C05-CT03	Retirada registrada e visível no livro caixa.|
+|C05-CT03	 | Retirada registrada e visível no livro caixa.|
+
 | **Pré-condições**                                             |
+| :------------------------------------------------------------ |
+|Caixa aberto.|
 
-Caixa aberto.
-
-| ------- | ---------------------------------------------------------------- |
-| **Passos**                                                        |
-| ------- | ---------------------------------------------------------------- |
+| **Passos**                                             |
+| :------------------------------------------------------------ |
 DADO que o usuário acessa “Retirar Valores”
 E clica em Novo
 QUANDO preencher Valor, Tipo de Documento e Histórico
 ENTÃO retirada deve aparecer registrada.
-Critérios de Aceitação
 
-Entrada listada corretamente.
+| **Critérios de Aceitação**                                             |
+| :------------------------------------------------------------ |
+|Entrada listada corretamente.|
 
 ### Caso de Teste 04: Retirada sem preencher campos obrigatórios
 | ID       | Descrição                                                        |
 | :------- | :---------------------------------------------------------------- |
-|C05-CT04	Sistema deve bloquear retirada incompleta.|
+|C05-CT04	 | Sistema deve bloquear retirada incompleta.|
+
 | **Pré-condições**                                             |
+| :------------------------------------------------------------ |
+|Nenhuma.|
 
-Nenhuma.
-
-| ------- | ---------------------------------------------------------------- |
-| **Passos**                                                        |
-| ------- | ---------------------------------------------------------------- |
+| **Passos**                                             |
+| :------------------------------------------------------------ |
 DADO que o usuário deixa Valor ou Tipo de Documento em branco
 QUANDO tentar salvar
 ENTÃO deve exibir alerta de obrigatoriedade.
-Critérios de Aceitação
 
-Retirada não registrada.
+| **Critérios de Aceitação**                                             |
+| :------------------------------------------------------------ |
+|Retirada não registrada.|
