@@ -90,41 +90,41 @@ ENTÃO a compra deve ficar com status “PENDENTE” e sem afetar o estoque.
 ### Caso de Teste 01: Venda completa com sucesso
 | ID       | Descrição                                                        |
 | :------- | :---------------------------------------------------------------- |
-|C02-CT01	Venda registrada, estoque reduzido e caixa alimentado.|
+|C02-CT01	 | Venda registrada, estoque reduzido e caixa alimentado.|
+
 | **Pré-condições**                                             |
+| :------------------------------------------------------------ |
+|Cliente, funcionário e produtos cadastrados.|
+|Produto com estoque suficiente.|
 
-Cliente, funcionário e produtos cadastrados.
-
-Produto com estoque suficiente.
-
-| ------- | ---------------------------------------------------------------- |
 | **Passos**                                                        |
-| ------- | ---------------------------------------------------------------- |
+| :------------------------------------------------------------ |
 DADO que o usuário clica em “Novo” na tela de vendas
 E escolhe cliente, funcionário e data
 E insere produtos
 QUANDO finalizar e salvar
 ENTÃO a venda deve aparecer no Livro Caixa.
-Critérios de Aceitação
 
-Estoque atualizado.
-
-Caixa alimentado.
+| **Critérios de Aceitação**                                         |
+| :------------------------------------------------------------ |
+|Estoque atualizado.|
+|Caixa alimentado.|
 
 ### Caso de Teste 02: Produto sem estoque
 | ID       | Descrição                                                        |
 | :------- | :---------------------------------------------------------------- |
-|C02-CT02	Sistema deve impedir venda sem estoque.|
+|C02-CT02	 |Sistema deve impedir venda sem estoque.|
+
 | **Pré-condições**                                             |
+| :------------------------------------------------------------ |
+|Produto com quantidade = 0.|
 
-Produto com quantidade = 0.
-
-| ------- | ---------------------------------------------------------------- |
 | **Passos**                                                        |
-| ------- | ---------------------------------------------------------------- |
+| :------------------------------------------------------------ |
 DADO que o usuário tenta incluir o produto
 QUANDO selecionar quantidade
 ENTÃO deve exibir mensagem “Estoque insuficiente”.
+
 Critérios de Aceitação
 
 Produto não deve entrar na venda.
