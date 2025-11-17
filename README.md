@@ -25,11 +25,11 @@ Produtos lançados no estoque.
 
 ### Caso de Teste 02: Importar XML inválido
 | ID       | Descrição                                                        |
-| :------- | :---------------------------------------------------------------- |
+| ------- | ---------------------------------------------------------------- |
 |C01-CT02	 | Sistema deve recusar XML inválido.|
-| :------------------------------------------------------------ |
+| ------------------------------------------------------------ |
 | **Pré-condições**                                             |
-|:---------|XML com estrutura incorreta.|
+|---------|XML com estrutura incorreta.|
 
 Passos
 Passos
