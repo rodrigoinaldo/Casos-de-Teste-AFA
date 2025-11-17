@@ -31,7 +31,7 @@ ENTÃO o estoque deve ser atualizado e a compra aparecer como “CONFIRMADA”.
 
 | **Pré-condições**                                             |
 | :------------------------------------------------------------ |
-| ------- | - XML com estrutura incorreta.|
+| - XML com estrutura incorreta.|
 
 | **Passos**                                                        |
 | :------------------------------------------------------------ |
@@ -60,28 +60,27 @@ DADO que o usuário está na tela
 E deixa CFOP ou Grupo em branco
 QUANDO tentar importar XML
 ENTÃO deve exibir mensagens de “campo obrigatório”.
-
-Critérios de Aceitação
-
-Campos obrigatórios validados.
+| **Critérios de aceitação**                                      |
+| :------------------------------------------------------------ |
+|Campos obrigatórios validados.|
 
 ### Caso de Teste 04: Gerar compra mas não confirmar entrada
 | ID       | Descrição                                                        |
 | ------- | ---------------------------------------------------------------- |
 |C01-CT04	Compra deve permanecer pendente sem confirmação.|
 | **Pré-condições**                                             |
+| :------------------------------------------------------------ |
+| - XML válido importado.|
 
-XML válido importado.
-
-| ------- | ---------------------------------------------------------------- |
 | **Passos**                                                        |
-| ------- | ---------------------------------------------------------------- |
+| :------------------------------------------------------------ |
 DADO que o usuário gera a compra
 QUANDO sair da tela sem mudar o status para CONFIRMADA
 ENTÃO a compra deve ficar com status “PENDENTE” e sem afetar o estoque.
-Critérios de Aceitação
 
-Estoque não alterado.
+| **Critérios de aceitação**                                      |
+| :------------------------------------------------------------ |
+|Estoque não alterado.|
 
 -------------------------------------------
 ## ✅ CENÁRIO 02 – PROCESSAMENTO DE VENDA (PDV)
