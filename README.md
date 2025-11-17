@@ -18,11 +18,11 @@ E preenche CFOP, Grupo e ST Entrada
 E importa um XML válido
 QUANDO clicar em “Gerar Compra” e depois “Finalizar”
 ENTÃO o estoque deve ser atualizado e a compra aparecer como “CONFIRMADA”.
-Critérios de Aceitação
 
-Compra confirmada.
-
-Produtos lançados no estoque.
+| **Critérios de aceitação**                                      |
+| :------------------------------------------------------------ |
+|Compra confirmada.|
+|Produtos lançados no estoque.|
 
 ### Caso de Teste 02: Importar XML inválido
 | ID       | Descrição                                                        |
