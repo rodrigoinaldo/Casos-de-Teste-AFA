@@ -21,6 +21,10 @@ ENTÃO cliente deve aparecer na lista.
 | :------------------------------------------------------------ |
 |Cadastro salvo.|
 
+| **Video**                                         |
+| :------------------------------------------------------------ |
+||
+
 ### Caso de Teste 02: Tentativa de salvar cliente sem campos obrigatórios
 | ID       | Descrição                                                        |
 | :------- | :---------------------------------------------------------------- |
@@ -39,6 +43,10 @@ ENTÃO deve exibir alerta.
 | **Critérios de Aceitação**                                             |
 | :------------------------------------------------------------ |
 |Cadastro bloqueado.|
+
+| **Video**                                         |
+| :------------------------------------------------------------ |
+||
 
 ### Caso de Teste 03: Venda acima do limite de crédito
 | ID       | Descrição                                                        |
@@ -60,6 +68,10 @@ ENTÃO sistema alerta e abre fluxo de contas a receber.
 |Alerta exibido.|
 |Venda permitida após confirmação.|
 
+| **Video**                                         |
+| :------------------------------------------------------------ |
+||
+
 ### Caso de Teste 04: Cadastrar dependente corretamente
 | ID       | Descrição                                                        |
 | :------- | :---------------------------------------------------------------- |
@@ -79,3 +91,7 @@ ENTÃO ele deve ser vinculado.
 | **Critérios de Aceitação**                                             |
 | :------------------------------------------------------------ |
 |Dependente aparece listado.|
+
+| **Video**                                         |
+| :------------------------------------------------------------ |
+||

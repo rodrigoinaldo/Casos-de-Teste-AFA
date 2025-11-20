@@ -24,6 +24,10 @@ ENTÃO a venda deve aparecer no Livro Caixa.
 |Estoque atualizado.|
 |Caixa alimentado.|
 
+| **Video**                                         |
+| :------------------------------------------------------------ |
+||
+
 ### Caso de Teste 02: Produto sem estoque
 | ID       | Descrição                                                        |
 | :------- | :---------------------------------------------------------------- |
@@ -42,6 +46,10 @@ ENTÃO deve exibir mensagem “Estoque insuficiente”.
 | **Critérios de Aceitação**                                             |
 | :------------------------------------------------------------ |
 |Produto não deve entrar na venda.|
+
+| **Video**                                         |
+| :------------------------------------------------------------ |
+||
 
 ### Caso de Teste 03: Desconto total bloqueado quando há desconto por item
 | ID       | Descrição                                                        |
@@ -62,6 +70,10 @@ ENTÃO deve bloquear com alerta.
 | :------------------------------------------------------------ |
 |Desconto total bloqueado.|
 
+| **Video**                                         |
+| :------------------------------------------------------------ |
+||
+
 ### Caso de Teste 04: Finalizar venda sem selecionar tipo de documento
 | ID       | Descrição                                                        |
 | :------- | :---------------------------------------------------------------- |
@@ -80,3 +92,7 @@ ENTÃO deve exibir erro.
 | **Critérios de Aceitação**                                             |
 | :------------------------------------------------------------ |
 |Finalização bloqueada.|
+
+| **Video**                                         |
+| :------------------------------------------------------------ |
+||

@@ -24,6 +24,10 @@ ENTÃO o estoque deve ser atualizado e a compra aparecer como “CONFIRMADA”.
 |Compra confirmada.|
 |Produtos lançados no estoque.|
 
+| **Video**                                         |
+| :------------------------------------------------------------ |
+|[Video](videos\1rotina\2025-11-20 14-46-22.mp4)|
+
 ### Caso de Teste 02: Importar XML inválido
 | ID       | Descrição                                                        |
 | ------- | ---------------------------------------------------------------- |
@@ -45,6 +49,10 @@ ENTÃO deve aparecer erro e bloqueio da ação.
 |Mensagem clara de erro.|
 |Não deve permitir gerar compra.|
 
+| **Video**                                         |
+| :------------------------------------------------------------ |
+||
+
 ### Caso de Teste 03: Falta de preenchimento obrigatório
 | ID       | Descrição                                                        |
 | ------- | ---------------------------------------------------------------- |
@@ -65,6 +73,10 @@ ENTÃO deve exibir mensagens de “campo obrigatório”.
 | :------------------------------------------------------------ |
 |Campos obrigatórios validados.|
 
+| **Video**                                         |
+| :------------------------------------------------------------ |
+||
+
 ### Caso de Teste 04: Gerar compra mas não confirmar entrada
 | ID       | Descrição                                                        |
 | ------- | ---------------------------------------------------------------- |
@@ -83,6 +95,10 @@ ENTÃO a compra deve ficar com status “PENDENTE” e sem afetar o estoque.
 | **Critérios de aceitação**                                      |
 | :------------------------------------------------------------ |
 |Estoque não alterado.|
+
+| **Video**                                         |
+| :------------------------------------------------------------ |
+||
 
 
 
