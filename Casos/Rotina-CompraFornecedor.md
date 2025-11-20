@@ -16,7 +16,6 @@
 DADO que o usuário cria nova compra
 E adiciona produtos
 QUANDO finalizar compra
-ENTÃO estoque deve ser alimentado.
 
 | **Critérios de Aceitação**                                             |
 | :------------------------------------------------------------ |
@@ -24,7 +23,7 @@ ENTÃO estoque deve ser alimentado.
 
 | **Video**                                         |
 | :------------------------------------------------------------ |
-||
+|[Video](https://drive.google.com/file/d/1rX7AnjNAykIMzZIeQk48FN95bRTkd-Mv/view?usp=drive_link)|
 
 ### Caso de Teste 02: Fornecedor inexistente
 | ID       | Descrição                                                        |
@@ -47,12 +46,12 @@ ENTÃO sistema deve bloquear.
 
 | **Video**                                         |
 | :------------------------------------------------------------ |
-||
+|[Video](https://drive.google.com/file/d/1ezbHxNDlMlLz-iLEqSowuPhbANsZj0P-/view?usp=drive_link)|
 
 ### Caso de Teste 03: Tipo de documento inválido para compra a prazo
 | ID       | Descrição                                                        |
 | :------- | :---------------------------------------------------------------- |
-|C03-CT03	 | Sistema deve recusar documento que alimenta caixa.|
+|C03-CT03	 | Sistema deve recusar documento que não alimenta caixa.|
 
 | **Pré-condições**                                             |
 | :------------------------------------------------------------ |
@@ -60,7 +59,7 @@ ENTÃO sistema deve bloquear.
 
 | **Passos**                                             |
 | :------------------------------------------------------------ |
-DADO que o usuário tenta inserir tipo de documento que alimenta caixa
+DADO que o usuário tenta inserir tipo de documento não que alimenta caixa
 QUANDO selecionar a opção proibida
 ENTÃO deve exibir alerta.
 
@@ -70,4 +69,4 @@ ENTÃO deve exibir alerta.
 
 | **Video**                                         |
 | :------------------------------------------------------------ |
-||
+|[Video]()|

@@ -23,7 +23,7 @@ ENTÃO cliente deve aparecer na lista.
 
 | **Video**                                         |
 | :------------------------------------------------------------ |
-||
+|[Video](https://drive.google.com/file/d/1u0Ir-83EU1kye06pfUDOYomo8gMrsAcr/view?usp=drive_link)|
 
 ### Caso de Teste 02: Tentativa de salvar cliente sem campos obrigatórios
 | ID       | Descrição                                                        |
@@ -46,7 +46,7 @@ ENTÃO deve exibir alerta.
 
 | **Video**                                         |
 | :------------------------------------------------------------ |
-||
+|[Video](https://drive.google.com/file/d/11WFJx6mwnntQj7kaSU9FAXfNBjExIf4m/view?usp=drive_link)|
 
 ### Caso de Teste 03: Venda acima do limite de crédito
 | ID       | Descrição                                                        |
@@ -70,7 +70,7 @@ ENTÃO sistema alerta e abre fluxo de contas a receber.
 
 | **Video**                                         |
 | :------------------------------------------------------------ |
-||
+|[Video]()|
 
 ### Caso de Teste 04: Cadastrar dependente corretamente
 | ID       | Descrição                                                        |
@@ -94,4 +94,4 @@ ENTÃO ele deve ser vinculado.
 
 | **Video**                                         |
 | :------------------------------------------------------------ |
-||
+|[Video](https://drive.google.com/file/d/1kzgifWJPTEOtMCtc9gknRgcpJpY3pKhD/view?usp=drive_link)|

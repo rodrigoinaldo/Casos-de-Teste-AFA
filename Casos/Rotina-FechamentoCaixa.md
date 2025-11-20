@@ -22,7 +22,7 @@ ENTÃO o caixa deve ser finalizado.
 
 | **Video**                                         |
 | :------------------------------------------------------------ |
-||
+|[Video]()|
 
 ### Caso de Teste 02: Tentar fechar caixa sem vendas no dia
 | ID       | Descrição                                                        |
@@ -45,7 +45,7 @@ ENTÃO deve exibir alerta de “nenhuma movimentação”.
 
 | **Video**                                         |
 | :------------------------------------------------------------ |
-||
+|[Video]()|
 
 ### Caso de Teste 03: Retirada de valores com sucesso
 | ID       | Descrição                                                        |
@@ -69,7 +69,7 @@ ENTÃO retirada deve aparecer registrada.
 
 | **Video**                                         |
 | :------------------------------------------------------------ |
-||
+|[Video]()|
 
 ### Caso de Teste 04: Retirada sem preencher campos obrigatórios
 | ID       | Descrição                                                        |
@@ -92,4 +92,4 @@ ENTÃO deve exibir alerta de obrigatoriedade.
 
 | **Video**                                         |
 | :------------------------------------------------------------ |
-||
+|[Video]()|
