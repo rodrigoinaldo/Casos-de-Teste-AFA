@@ -26,12 +26,12 @@ ENTÃO a venda deve aparecer no Livro Caixa.
 
 | **Video**                                         |
 | :------------------------------------------------------------ |
-||
+|[Video](https://drive.google.com/file/d/1_yNsav6wwFZB94xsF3bJZR41fmeDVMQe/view?usp=drive_link)|
 
 ### Caso de Teste 02: Produto sem estoque
 | ID       | Descrição                                                        |
 | :------- | :---------------------------------------------------------------- |
-|C02-CT02	 | Sistema deve impedir venda sem estoque.|
+|C02-CT02	 | Sistema deve permitir venda sem estoque.|
 
 | **Pré-condições**                                             |
 | :------------------------------------------------------------ |
@@ -41,38 +41,39 @@ ENTÃO a venda deve aparecer no Livro Caixa.
 | :------------------------------------------------------------ |
 DADO que o usuário tenta incluir o produto
 QUANDO selecionar quantidade
-ENTÃO deve exibir mensagem “Estoque insuficiente”.
+O sistema deve permitir proceguir a venda.
+Deve estar no Livro caixa
 
 | **Critérios de Aceitação**                                             |
 | :------------------------------------------------------------ |
-|Produto não deve entrar na venda.|
+|Produto deve entrar na venda.|
 
 | **Video**                                         |
 | :------------------------------------------------------------ |
-||
+|[Video](https://drive.google.com/file/d/1FvoupSZmtUKGDB_QdOKaN9Qzxb9EraV9/view?usp=drive_link)|
 
-### Caso de Teste 03: Desconto total bloqueado quando há desconto por item
+### Caso de Teste 03: Permitir aplicar apenas desconto total na hora da venda 
 | ID       | Descrição                                                        |
 | :------- | :---------------------------------------------------------------- |
-|C02-CT03	 | Sistema não deve permitir desconto duplo.|
+|C02-CT03	 | Sistema deve permitir desconto na venda.|
 
 | **Pré-condições**                                             |
 | :------------------------------------------------------------ |
-|Venda com desconto individual por item.|
+|Venda com desconto total.|
 
 | **Passos**                                             |
 | :------------------------------------------------------------ |
-DADO que a venda possui produto com desconto
+DADO que a venda possui produto sem desconto
 QUANDO tentar aplicar desconto geral
-ENTÃO deve bloquear com alerta.
+ENTÃO deve permitir.
 
 | **Critérios de Aceitação**                                             |
 | :------------------------------------------------------------ |
-|Desconto total bloqueado.|
+|Desconto total autoizado.|
 
 | **Video**                                         |
 | :------------------------------------------------------------ |
-||
+|[Video](https://drive.google.com/file/d/1HVLd__TIMdahcRPspC9NtnQzcIAVfbvm/view?usp=drive_link)|
 
 ### Caso de Teste 04: Finalizar venda sem selecionar tipo de documento
 | ID       | Descrição                                                        |
@@ -95,4 +96,4 @@ ENTÃO deve exibir erro.
 
 | **Video**                                         |
 | :------------------------------------------------------------ |
-||
+|[Video](https://drive.google.com/file/d/1lRhJPoKqw2ZBasUMv8YRhRINuo9Qnhnb/view?usp=drive_link)|

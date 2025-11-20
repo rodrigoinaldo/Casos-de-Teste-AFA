@@ -75,7 +75,7 @@ ENTÃO deve exibir mensagens de “campo obrigatório”.
 
 | **Video**                                         |
 | :------------------------------------------------------------ |
-|[Video]()|
+|[Video](https://drive.google.com/file/d/1Z97g-T__esbq_VgnTf8nl4ZZmKp6oIi_/view?usp=drive_link)|
 
 ### Caso de Teste 04: Gerar compra mas não confirmar entrada
 | ID       | Descrição                                                        |
@@ -98,7 +98,7 @@ ENTÃO a compra deve ficar com status “PENDENTE” e sem afetar o estoque.
 
 | **Video**                                         |
 | :------------------------------------------------------------ |
-|[Video]()|
+|[Video](https://drive.google.com/file/d/1DH0bo_DjZ_76sg5Br2GUqw2hCrmtSdXd/view?usp=drive_link)|
 
 
 
